@@ -13,11 +13,11 @@ async def on_ready():
 	print("Bot is running")
 
 	 await client.change_presence(status=discord.Status.do_not_disturb, 
- 	activity=discord.Activity(type=discord.ActivityType.playing, name="github.com/devmaul"))
+ 	activity=discord.Activity(type=discord.ActivityType.playing, name="github.com/staudlol"))
 
 @client.command()
 async def github(ctx):
-	await ctx.send("Github: github.com/devmaul")
+	await ctx.send("Github: github.com/staudlol")
 
 
 # Key goes in the ""'s below.
